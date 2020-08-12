@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
 	<title>Baqiath</title>
@@ -9,7 +9,7 @@
 	<meta name="keywords" content="Immobiler, Gestion Immobiliaire, Récouvrements, Arbitrage ad Hoc,Médiation
     Smartphone Compatible web template, free webdesigns for Nokia, Samsung, Baqiath Immobilier, Biens Immobilers, Administration des Biens" />
 	<script type="application/x-javascript">
-		addEventListener("load", function () {
+		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
 		}, false);
 
@@ -18,10 +18,10 @@
 		}
 	</script>
 	<!-- //custom-theme -->
-    <link href="{{asset('web/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{asset('web/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{asset('web/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{asset('web/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 	<!-- font-awesome-icons -->
-    <link href="{{asset('web/css/font-awesome.css')}}" rel="stylesheet">
+	<link href="{{asset('web/css/font-awesome.css')}}" rel="stylesheet">
 	<!-- //font-awesome-icons -->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
@@ -41,24 +41,25 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html"> <span>B</span>aqiath</a></h1>
+					<h1><a class="navbar-brand" href="{{route('acceuil')}}"> <span>B</span>aqiath</a></h1>
 
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="link-effect-2" id="link-effect-2">
 						<ul class="nav navbar-nav">
-                        <li><a href="{{route('acceuil')}}" class="effect-3">Acceuil</a></li>
+							<li><a href="{{route('acceuil')}}" class="effect-3">{{__('messages.acceuil_title')}}</a></li>
 							{{-- <li><a href="about.html" class="effect-3">About</a></li> --}}
 							{{-- <li><a href="blog.html" class="effect-3">Blog</a></li> --}}
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Langues<b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">{{__('messages.lang_title')}}<b class="caret"></b></a>
 								<ul class="dropdown-menu agile_short_dropdown">
-									<li><a href="icons.html">Anglais</a></li>
-									<li><a href="typography.html">Italien</a></li>
+									<li><a href="{{url('/fr')}}">Français</a></li>
+									<li><a href="{{url('/en')}}">English</a></li>
+									<li><a href="{{url('/it')}}">Italiano</a></li>
 								</ul>
 							</li>
-                        <li class="active"><a href="{{route('mailus')}}" class="effect-3">Contact</a></li>
+							<li class="active"><a href="{{route('mailus')}}" class="effect-3">{{__('messages.contact_title')}}</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -72,8 +73,8 @@
 		<div class="agile_inner_breadcrumb">
 
 			<ul class="w3_short">
-            <li><a href="{{route('acceuil')}}">Acceuil</a><span>|</span></li>
-				<li>Contact</li>
+				<li><a href="{{route('acceuil')}}">{{__('messages.acceuil_title')}}</a><span>|</span></li>
+				<li>{{__('messages.contact_word')}}</li>
 			</ul>
 		</div>
 	</div>

@@ -7,30 +7,31 @@
         <div class="agile_wthree_inner_grids">
 
             <div class="col-md-6 about_agileinfo_grid_imgs">
-            <img src="{{asset('web/images/about.jpg')}}" alt="" />
+                <img src="{{asset('web/images/about.jpg')}}" alt="" />
             </div>
 
             <div class="col-md-6 about_agileinfo">
                 <h4>Travaillez avec nous</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                    dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.Lorem Ipsum is simply dummy
-                    text of the printing and typesetting industryInteger laoreet ultricies nunc..</p>
+                <p>
+                    Travaillez avec Baqiath immobiler, pour tout vos besoins en matière de construction et gestion de biens
+                    Nous nous engageons à respecter vos contraintes , faites nous confiance.
+                </p>
                 <div class="mid-inner-info">
                     <div class="col-md-6 mid-inner-sec one">
                         <span class="fa fa-heart-o" aria-hidden="true"></span>
-                        <h5>Made with Love</h5>
+                        <h5>Vous faire plaisir</h5>
                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                        <div class="agileits-button two service">
+                        {{-- <div class="agileits-button two service">
                             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More »</a>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-md-6 mid-inner-sec">
                         <span class="fa fa-clone" aria-hidden="true"></span>
                         <h5>Modern Framework</h5>
                         <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                        <div class="agileits-button two service">
+                        {{-- <div class="agileits-button two service">
                             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More »</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
