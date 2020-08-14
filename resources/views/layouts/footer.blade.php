@@ -20,12 +20,12 @@
  	                    <button class="btn1"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
  	                    <div class="clearfix"> </div>
  	                </form> --}}
- 	                <li><span class="fa fa-envelope-o" aria-hidden="true"></span> <a href="mailto:info@example.com">tourham2000@yahoo.fr</a></li>
  	                <ul class="con_inner_text">
+                      <li><span class="fa fa-envelope-o" aria-hidden="true"></span> <a href="mailto:info@example.com">tourham2000@yahoo.fr</a></li>
  	                    <li><span class="fa fa-phone" aria-hidden="true"></span> +(255) 77 66 14 41</li>
  	                </ul>
  	            </div>
- 	            <div class="col-md-5 w3layouts_footer_grid">
+ 	            <div style="text-align:center" class="col-md-5 w3layouts_footer_grid">
  	                {{-- <ul class="con_inner_text midimg">
  	                    <li><a href="#"><img src="{{asset('web/images/banner22.jpg')}}" alt="" class="img-responsive" /></a></li>
  	                <li><a href="#"><img src="{{asset('web/images/banner33.jpg')}}" alt="" class="img-responsive" /></a></li>
@@ -33,10 +33,12 @@
  	                <li><a href="#"><img src="{{asset('web/images/banner11.jpg')}}" alt="" class="img-responsive" /></a></li>
  	                </ul> --}}
  	                <ul class="con_inner_text">
+                      <br>
  	                    <li><span class="fa fa-map-marker" aria-hidden="true"></span>25 BP 848 ABIDJAN 25<label> Cocody sol béni</label></li>
  	                </ul>
  	            </div>
- 	            <div class="col-md-3 w3layouts_footer_grid">
+ 	            <div style="text-align:right" class="col-md-3 w3layouts_footer_grid">
+                  <br>
  	                <ul class="social_agileinfo">
  	                    <li><a href="#" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
  	                    <li><a href="#" class="w3_twitter"><i class="fa fa-twitter"></i></a></li>

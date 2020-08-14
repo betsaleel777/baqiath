@@ -1,7 +1,7 @@
 <div class="portfolio-agileinfo" id="portfolio">
     <div class="container">
         <div class="wthree_head_section">
-            <h3 class="w3l_header w3_agileits_header">Nos <span>Maisons</span></h3>
+            <h3 class="w3l_header w3_agileits_header">{{__('messages.us_plurial')}} <span>{{__('messages.house_word')}}</span></h3>
         </div>
     </div>
     <div class="agile_wthree_inner_grids">
