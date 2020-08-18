@@ -2,7 +2,7 @@
 <div class="about" id="welcome">
     <div class="container">
         <div class="wthree_head_section">
-            <h3 class="w3l_header w3_agileits_header two">Construire <span>Rénover et Gérer</span></h3>
+            <h3 class="w3l_header w3_agileits_header two">{{__('messages.about_title_first')}} <span>{{__('messages.about_title_second')}}</span></h3>
         </div>
         <div class="agile_wthree_inner_grids">
 
@@ -11,24 +11,21 @@
             </div>
 
             <div class="col-md-6 about_agileinfo">
-                <h4>Travaillez avec nous</h4>
-                <p>
-                    Travaillez avec Baqiath immobiler, pour tout vos besoins en matière de construction et gestion de biens
-                    Nous nous engageons à respecter vos contraintes , faites nous confiance.
-                </p>
+                <h4>{{__('messages.about_title_one')}}</h4>
+                <p>{{__('messages.about_one_content')}}</p>
                 <div class="mid-inner-info">
                     <div class="col-md-6 mid-inner-sec one">
                         <span class="fa fa-heart-o" aria-hidden="true"></span>
-                        <h5>Vous faire plaisir</h5>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        <h5>{{__('messages.about_title_two')}}</h5>
+                        <p>{{__('messages.about_two_content')}}</p>
                         {{-- <div class="agileits-button two service">
                             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More »</a>
                         </div> --}}
                     </div>
                     <div class="col-md-6 mid-inner-sec">
                         <span class="fa fa-clone" aria-hidden="true"></span>
-                        <h5>Modern Framework</h5>
-                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        <h5>{{__('messages.about_title_three')}}</h5>
+                        <p>{{__('messages.about_three_content')}}</p>
                         {{-- <div class="agileits-button two service">
                             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More »</a>
                         </div> --}}

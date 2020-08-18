@@ -14,13 +14,13 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.recover_word')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_one')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -33,13 +33,13 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.handle_business')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_two')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -52,13 +52,13 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.handle_juridique')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_three')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -71,13 +71,13 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.handle_referee')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_four')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -90,13 +90,13 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.admin_goods')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_five')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -109,18 +109,18 @@
                             </div>
                         </div>
                         <div class="col-xs-9 wthree_banner_bottom_grid_right">
-                            <h4 class="sub_service_agileits">{{__('messages.handle_transact')}}</h4>
+                            <h4 class="sub_service_agileits">{{__('messages.service_six')}}</h4>
                             <p></p>
-                            <div class="agileits-button two service">
-                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>
-                            </div>
+                            {{--                            <div class="agileits-button two service">--}}
+                            {{--                                <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">{{__('messages.read_more')}} »</a>--}}
+                            {{--                            </div>--}}
                         </div>
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
 
-            <div class="clearfix"> </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 </div>

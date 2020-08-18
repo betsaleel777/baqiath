@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-	<title>BAQIATH</title>
+	<title>BAQIATH1846</title>
 	<!-- custom-theme -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Immobiler, Gestion Immobiliaire, Récouvrements, Arbitrage ad Hoc,Médiation
-    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, Baqiath Immobilier, Biens Immobilers, Administration des Biens" />
+{{--	// TODO: changer de les keywords selon la langue--}}
+	<meta name="keywords" content="Immobiler, Gestion Immobiliaire, Récouvrements, Arbitrage, Médiation ad Hoc, récouvrement de créances, baqiath1846, Touré Amidou, cabinet Tourham, Tourham, cabinet Touré Amidou, conseils, assistances à la négociation, assistance à la signature
+     litiges, affaires litigieuses, litiges immobiler, litiges fonciers, gestion administrative, cabinet immobilier, Baqiath Immobilier, Biens Immobilers, Administration des Biens, cabinet de gestion, gestion des biens immobiliers, gestion des loyers,
+     transactions immobilières, transactions d'assurances immobilières, fonds de commerces, marchandises, cabinet d'intermédiation, intermédiation d'affaire, Médiateur certifié, Touré Amidou Médiateur certifié CACI" />
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);

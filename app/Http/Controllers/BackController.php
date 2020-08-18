@@ -10,7 +10,9 @@ class BackController extends Controller
     //maisons
     public function maisons()
     {
-
+        $title = 'BAQIATH OFFICE MAISONS' ;
+        $titre = 'Maisons du site' ;
+       return view('admin.maisons.index',compact('titre','title'));
     }
 
     public function editMaison(Request $request, int $id)

@@ -44,7 +44,7 @@
 			<div class="wrapper">
 				<div class="agile_banner_text_info">
 					<h3>{{__('messages.site_title')}}</h3>
-					<p>{{__('messages.site_slogant')}}</p>
+					<p style="color: mediumspringgreen">{{__('messages.site_slogant')}}</p>
 					<div class="w3-button">
 						{{-- <div class="w3ls-button">
 							<a href="single.html" class="hvr-shutter-out-vertical">Lire plus</a>
@@ -91,8 +91,8 @@
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">
-							<h4>Digital Branding</h4>
-							<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+							<h4>{{__('messages.banner_about_title_one')}}</h4>
+							<p>{{__('messages.banner_about_content_one')}}</p>
 
 						</div>
 						<div class="clearfix"> </div>
@@ -108,8 +108,8 @@
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">
-							<h4>Web Interactive</h4>
-							<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+							<h4>{{__('messages.banner_about_title_two')}}</h4>
+							<p>{{__('messages.banner_about_content_two')}}</p>
 
 						</div>
 						<div class="clearfix"> </div>
@@ -125,8 +125,8 @@
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">
-							<h4>Graphic Design</h4>
-							<p>Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat.</p>
+							<h4>{{__('messages.banner_about_title_three')}}</h4>
+							<p>{{__('messages.banner_about_content_three')}}</p>
 
 						</div>
 						<div class="clearfix"> </div>

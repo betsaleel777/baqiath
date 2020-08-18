@@ -21,9 +21,5 @@ Route::prefix('manage')->group( function() {
   Route::get('/contacts','BackController@contact')->name('contacts') ;
   Route::get('/contacts/{id}','BackController@contactShow')->name('contacts_show') ;
   Route::get('/contacts/delete/{id}','BackController@deleteContact')->name('contacts_delete') ;
-  Route::get('/maisons','BackController@maison')->name('maisons') ;
+  Route::get('/maisons','BackController@maisons')->name('maisons') ;
 }) ;
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
