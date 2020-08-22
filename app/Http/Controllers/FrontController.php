@@ -36,7 +36,7 @@ class FrontController extends Controller
     public function languages($locale)
     {
         if (!in_array($locale, ['en', 'it', 'fr'])) {
-            abort(404);
+            abort(404) ;
         }
         \Session::put('locale', $locale);
         return redirect()->back();

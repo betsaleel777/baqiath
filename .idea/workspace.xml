@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8552742-8f7e-40f3-827f-e8232794e3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/maisons/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper_models.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Maison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_20_192356_alter_table_maisons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web/images/dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/baqiath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baqiath.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/images/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/images/banner2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/images/banner3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/w3layouts-License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fr/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/banner.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Maisons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_06_015629_create_table_maisons.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_015629_create_table_maisons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/service.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/service.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +147,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fpvPPEO1V0tDm9TfEAoUnNwAAS" />
@@ -155,6 +164,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -180,6 +190,16 @@
       <workItem from="1597608370496" duration="4710000" />
       <workItem from="1597621096774" duration="3971000" />
       <workItem from="1597663328115" duration="7106000" />
+      <workItem from="1597770681568" duration="3672000" />
+      <workItem from="1597838376325" duration="3146000" />
+      <workItem from="1597842773727" duration="1887000" />
+      <workItem from="1597927032689" duration="3058000" />
+      <workItem from="1597952090819" duration="5442000" />
+      <workItem from="1597961348196" duration="6778000" />
+      <workItem from="1597969032691" duration="132000" />
+      <workItem from="1598017934946" duration="5149000" />
+      <workItem from="1598033691421" duration="2411000" />
+      <workItem from="1598052789632" duration="3773000" />
     </task>
     <servers />
   </component>
@@ -187,22 +207,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="183" y="45" width="1534" height="1019" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598056280727">
+      <screen x="0" y="33" width="1920" height="1047" />
+    </state>
+    <state x="183" y="45" width="1534" height="1019" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.33.1920.1047@0.33.1920.1047" timestamp="1598056280727" />
     <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597445267176">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
     <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.33.1920.1047@0.33.1920.1047" timestamp="1597445267176" />
-    <state x="544" y="175" key="SettingsEditor" timestamp="1597671176727">
+    <state x="411" y="144" key="SettingsEditor" timestamp="1597842931740">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
-    <state x="544" y="175" key="SettingsEditor/0.33.1920.1047@0.33.1920.1047" timestamp="1597671176727" />
-    <state width="623" height="498" key="SwitcherDM" timestamp="1597447051287">
+    <state x="411" y="144" key="SettingsEditor/0.33.1920.1047@0.33.1920.1047" timestamp="1597842931740" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1597774247098">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
-    <state width="623" height="498" key="SwitcherDM/0.33.1920.1047@0.33.1920.1047" timestamp="1597447051287" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1597670841100">
+    <state width="623" height="498" key="SwitcherDM/0.33.1920.1047@0.33.1920.1047" timestamp="1597774247098" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1597963337452">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.33.1920.1047@0.33.1920.1047" timestamp="1597670841100" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.33.1920.1047@0.33.1920.1047" timestamp="1597963337452" />
     <state x="666" y="453" width="588" height="204" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597439449301">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>

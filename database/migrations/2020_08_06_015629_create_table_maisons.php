@@ -23,12 +23,12 @@ class CreateTableMaisons extends Migration
             $table->unsignedTinyInteger('salon')->nullable() ;
             $table->unsignedTinyInteger('superficie') ;
             $table->string('image_presentation') ;
-            $table->string('shodai') ;
-            $table->string('nidaime') ;
-            $table->string('sandaime') ;
-            $table->string('yondaime') ;
-            $table->string('gondaime') ;
-            $table->string('rokudaime') ;
+            $table->string('shodai')->nullable() ;
+            $table->string('nidaime')->nullable() ;
+            $table->string('sandaime')->nullable() ;
+            $table->string('yondaime')->nullable() ;
+            $table->string('gondaime')->nullable() ;
+            $table->string('rokudaime')->nullable() ;
         });
     }
 
