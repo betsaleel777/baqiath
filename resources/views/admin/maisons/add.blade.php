@@ -47,7 +47,7 @@
                 </div>
                 <div class="form-group">
                     <label for="image">image de présentation
-                        @if($rank === 1 or $rank === 2)
+                        @if($rank === 0 or $rank === 1)
                             <small class="text-muted">Largeur:801, Longueur:449 </small>
                         @else
                             <small class="text-muted">Largeur:400, Longueur:449 </small>

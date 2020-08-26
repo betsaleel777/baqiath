@@ -47,6 +47,8 @@ return ['acceuil_title' => 'Home',
     'service_five' => 'Negotiating insurance services',
     'service_six' => 'Advice',
     'house_word' => 'Houses',
+    //gallery
+    'image_default_slogant' => 'Contact us for more information',
     //mail us content
     'contact_word' => 'Contact',
     'contact_verb' => 'Contact',

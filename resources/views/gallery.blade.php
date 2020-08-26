@@ -8,70 +8,70 @@
         <div class="agile_port_w3ls_info">
             <div class="portfolio-grids_main">
                 <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                    <a href="{{asset('web/images/g1.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="{{asset('web/images/g1.jpg')}}" class="img-responsive" alt="w3ls" />
-                            <div class="p-mask">
-                                <h4><span>Heading here</span></h4>
-                                <p>Neque porro quisquam est.</p>
-                            </div>
-                        </a>
+                    <a href="{{asset('web/images').'/'.$maisons->where('rang',0)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                        <img src="{{asset('web/images').'/'.$maisons->where('rang',0)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                        <div class="p-mask">
+                            <h4><span>{{$maisons->where('rang',0)->first()->intitule}}</span></h4>
+                            <p>{{__('messages.image_default_slogant')}}</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 portfolio-grid_left">
                     <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                        <a href="{{asset('web/images/g5.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                                <img src="{{asset('web/images/g5.jpg')}}" class="img-responsive" alt="w3ls" />
-                                <div class="p-mask">
-                                    <h4><span>Heading here</span></h4>
-                                    <p>Neque porro quisquam est.</p>
-                                </div>
-                            </a>
+                        <a href="{{asset('web/images').'/'.$maisons->where('rang',2)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('web/images').'/'.$maisons->where('rang',2)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                            <div class="p-mask">
+                                <h4><span>{{$maisons->where('rang',2)->first()->intitule}}</span></h4>
+                                <p>{{__('messages.image_default_slogant')}}</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                        <a href="{{asset('web/images/g4.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                                <img src="{{asset('web/images/g4.jpg')}}" class="img-responsive" alt="w3ls" />
-                                <div class="p-mask">
-                                    <h4><span>Heading here</span></h4>
-                                    <p>Neque porro quisquam est.</p>
-                                </div>
-                            </a>
+                        <a href="{{asset('web/images').'/'.$maisons->where('rang',3)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('web/images').'/'.$maisons->where('rang',3)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                            <div class="p-mask">
+                                <h4><span>{{$maisons->where('rang',3)->first()->intitule}}</span></h4>
+                                <p>{{__('messages.image_default_slogant')}}</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
             <div class="portfolio-grids_main">
 
                 <div class="col-md-6 portfolio-grid_left">
                     <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                        <a href="{{asset('web/images/g6.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                                <img src="{{asset('web/images/g6.jpg')}}" class="img-responsive" alt="w3ls" />
-                                <div class="p-mask">
-                                    <h4><span>Heading here</span></h4>
-                                    <p>Neque porro quisquam est.</p>
-                                </div>
-                            </a>
+                        <a href="{{asset('web/images').'/'.$maisons->where('rang',4)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('web/images').'/'.$maisons->where('rang',4)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                            <div class="p-mask">
+                                <h4><span>{{$maisons->where('rang',4)->first()->intitule}}</span></h4>
+                                <p>{{__('messages.image_default_slogant')}}</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                        <a href="{{asset('web/images/g3.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                                <img src="{{asset('web/images/g3.jpg')}}" class="img-responsive" alt="w3ls" />
-                                <div class="p-mask">
-                                    <h4><span>Heading here</span></h4>
-                                    <p>Neque porro quisquam est.</p>
-                                </div>
-                            </a>
+                        <a href="{{asset('web/images').'/'.$maisons->where('rang',5)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('web/images').'/'.$maisons->where('rang',5)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                            <div class="p-mask">
+                                <h4><span>{{$maisons->where('rang',5)->first()->intitule}}</span></h4>
+                                <p>{{__('messages.image_default_slogant')}}</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-                    <a href="{{asset('web/images/g2.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="{{asset('web/images/g2.jpg')}}" class="img-responsive" alt="w3ls" />
-                            <div class="p-mask">
-                                    <h4><span>Heading here</span></h4>
-                                    <p>Neque porro quisquam est.</p>
-                                </div>
-                        </a>
+                    <a href="{{asset('web/images').'/'.$maisons->where('rang',1)->first()->image_presentation}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                        <img src="{{asset('web/images').'/'.$maisons->where('rang',1)->first()->image_presentation}}" class="img-responsive" alt="w3ls"/>
+                        <div class="p-mask">
+                            <h4><span>{{$maisons->where('rang',1)->first()->intitule}}</span></h4>
+                            <p>{{__('messages.image_default_slogant')}}</p>
+                        </div>
+                    </a>
                 </div>
 
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
 
         </div>

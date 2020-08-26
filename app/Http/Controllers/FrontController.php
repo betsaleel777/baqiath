@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Maison;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
@@ -11,7 +12,8 @@ class FrontController extends Controller
 {
     public function index()
     {
-        return view('site');
+        $maisons = Maison::get() ;
+        return view('site',compact('maisons'));
     }
 
     public function mailus()

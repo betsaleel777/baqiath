@@ -47,10 +47,10 @@
                 </div>
                 <div class="form-group">
                     <label for="image">image de présentation
-                        @if($rank === 1 or $rank === 2)
-                            <small class="text-muted">Largeur:449, Longueur:801 </small>
+                        @if($rank === 0 or $rank === 1)
+                            <small class="text-muted">Largeur:801, Longueur:449</small>
                         @else
-                            <small class="text-muted">Largeur:449, Longueur:400 </small>
+                            <small class="text-muted">Largeur:400, Longueur:449</small>
                         @endif
                     </label>
                     <input name="image_presentation" type="file" class="form-control-file" id="image">

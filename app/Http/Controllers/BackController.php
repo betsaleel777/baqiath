@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\File;
 
 class BackController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     //maisons
     public function maisons()
     {
@@ -35,12 +40,12 @@ class BackController extends Controller
 
     public function store(Request $request)
     {
-        if ($request->rang === 1 or $request->rang === 2) {
+        if ($request->rang == 0 or $request->rang == 1) {
             $data = $request->validate(Maison::RULES_FIRST);
         } else {
             $data = $request->validate(Maison::RULES_SECOND);
         }
-        $maison = new Maisons($request->all());
+        $maison = new Maison($request->all());
         $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
         $request->image_presentation->move(public_path('web/images'), $imageName);
         $maison->image_presentation = $imageName;
@@ -48,26 +53,27 @@ class BackController extends Controller
         return redirect()->route('maisons')->with('success', 'Informations de maison enregistrées avec succes');
     }
 
-    public function updateMaison(Request $request, int $rang)
+    public function updateMaison(Request $request)
     {
-        if ($request->rang === 1 or $request->rang === 2) {
+        if ($request->rang == 0 or $request->rang == 1) {
             $data = $request->validate(Maison::RULES_FIRST);
         } else {
             $data = $request->validate(Maison::RULES_SECOND);
         }
-        $maison = Maison::findOrFail($rang);
+        $maison = Maison::where('rang', $request->rang)->get()->first();
         $maison->intitule = $request->intitule;
         $maison->lieu = $request->lieu;
         $maison->chambre = $request->chambre;
         $maison->salon = $request->salon;
         $maison->superficie = $request->superficie;
-        if (!empty($request->image_presentation)) {
-            $oldpath = public_path('web/images') . '/' . $maison->getOriginal('image_presentation');
-            File::delete($oldpath);
-            $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
-            $request->image_presentation->move(public_path('web/images'), $imageName);
-            $maison->image_presentation = $imageName;
-        }
+        $maison->rang = $request->rang ;
+
+        $oldpath = public_path('web/images') . '/' . $maison->getOriginal('image_presentation');
+        File::delete($oldpath);
+        $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
+        $request->image_presentation->move(public_path('web/images'), $imageName);
+        $maison->image_presentation = $imageName;
+
         $maison->save();
         return redirect()->route('maisons')->with('success', 'Informations de maison modifiées avec succes');
     }
