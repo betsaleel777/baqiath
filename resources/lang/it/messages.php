@@ -14,13 +14,13 @@ return ['acceuil_title' => 'Casa',
                                    Ivoriano specializzato in procedure legali e amministrative,',
     'banner_about_content_two' => 'recupero crediti e affitti, transazioni immobiliari, assicurazioni, beni e avviamento,
                                    consulenza, rappresentanza, intermediazione.',
-    'banner_about_content_three' => 'recupero crediti e affitti, transazioni immobiliari, assicurazioni, beni e avviamento,
-                                     consulenza, rappresentanza, intermediazione.',
+    'banner_about_content_three' => 'Il nostro lavoro è gestire gli affari degli altri, controversi o no, consigliare,
+                                     e per informare il pubblico o per intervenire in loro favore, il tutto a pagamento.',
     //about
     'about_title_first' => 'Gestire',
     'about_title_second' => 'costruire e ristrutturare',
     'about_title_one' => 'I nostri obiettivi',
-    'about_title_two' => 'titre à trouver',
+    'about_title_two' => 'famiglia',
     'about_title_three' => 'Proprietà commerciale',
     'about_one_content' => 'Beneficiando di una reale esperienza sul campo, il nostro obiettivo è garantire la sicurezza giuridica delle transazioni.
                             A BAQIATH1846, abbiamo una visione del tema "Intermediazione e rappresentazione" profondamente segnata da

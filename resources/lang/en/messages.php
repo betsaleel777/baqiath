@@ -20,14 +20,14 @@ return ['acceuil_title' => 'Home',
     'about_title_first' => 'Handle',
     'about_title_second' => 'build and renovate',
     'about_title_one' => 'Our goal',
-    'about_title_two' => 'titre à trouver',
+    'about_title_two' => 'family',
     'about_title_three' => 'Commercial property',
     'about_one_content' => 'Benefiting from real experience in the field, our goal is to ensure transactional legal security.
                             At BAQIATH1846, we have a vision of the theme “Intermediation and Representation” deeply marked by
                             our extensive knowledge of the legal, economic and social environment of the management of Private Affairs.
-                            Indeed, the issues of Intermediation and Representation in our current context are above all strategic 
-                            approaches to managing efficiency in a Côte d\'Ivoire in full transformation towards developed nations and 
-                            in economic, social and cultural expansion. BAQIATH1846 is your ideal partner for the success 
+                            Indeed, the issues of Intermediation and Representation in our current context are above all strategic
+                            approaches to managing efficiency in a Côte d\'Ivoire in full transformation towards developed nations and
+                            in economic, social and cultural expansion. BAQIATH1846 is your ideal partner for the success
                             and security of your transactions, receivables and Business.',
     'about_two_content' => 'Are you looking for a foster family, godparents or godchildren.
                             Looking for a job or employees.',

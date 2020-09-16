@@ -68,10 +68,10 @@
 				</ul>
 				<!-- Slideshow 3 Pager -->
 				<ul id="slider3-pager">
-					{{-- <li><a href="#"><img src="{{asset('web/images/banner11.jpg')}}" data-selector="img" alt=""></a></li>
+					<li><a href="#"><img src="{{asset('web/images/banner11.jpg')}}" data-selector="img" alt=""></a></li>
 					<li><a href="#"><img src="{{asset('web/images/banner22.jpg')}}" data-selector="img" alt=""></a></li>
 					<li><a href="#"><img src="{{asset('web/images/banner33.jpg')}}" data-selector="img" alt=""></a></li>
-					<li><a href="#"><img src="{{asset('web/images/banner44.jpg')}}" data-selector="img" alt=""></a></li> --}}
+					<li><a href="#"><img src="{{asset('web/images/banner44.jpg')}}" data-selector="img" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
@@ -87,7 +87,7 @@
 					<div class="w3_agileits_banner_bottom_pos_grid">
 						<div class="col-xs-3 wthree_banner_bottom_grid_left">
 							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
-								<span class="fa fa-laptop" aria-hidden="true"></span>
+								<span class="fa fa-info-circle" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">
@@ -104,7 +104,7 @@
 					<div class="w3_agileits_banner_bottom_pos_grid">
 						<div class="col-xs-3 wthree_banner_bottom_grid_left">
 							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
-								<span class="fa fa-pencil" aria-hidden="true"></span>
+								<span class="fa fa-globe" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">
@@ -121,7 +121,7 @@
 					<div class="w3_agileits_banner_bottom_pos_grid">
 						<div class="col-xs-3 wthree_banner_bottom_grid_left">
 							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
-								<span class="fa fa-mobile" aria-hidden="true"></span>
+								<span class="fa fa-user" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="col-xs-9 wthree_banner_bottom_grid_right">

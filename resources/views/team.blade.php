@@ -22,13 +22,13 @@
                 <img src="{{asset('web/images/t2.jpg')}}" alt=" " class="img-responsive" />
                 <h3>Touré Amidou</h3>
                 <p>{{__('messages.ceo_skills')}}</p>
-                <div class="agileits_w3layouts_nav_right team_agile _icons">
+                {{-- <div class="agileits_w3layouts_nav_right team_agile _icons">
                     <ul>
                         <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        {{-- <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li> --}}
+                        <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <div class="col-md-4 w3_agile_team_grid_info">
                 {{-- <img src="{{asset('web/images/t3.jpg')}}" alt=" " class="img-responsive" />

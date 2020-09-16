@@ -29,13 +29,13 @@
 								</ul>
 						</div>
 						<div style="text-align:right" class="col-md-3 w3layouts_footer_grid">
-								<br>
-								<ul class="social_agileinfo">
+								{{-- <ul class="social_agileinfo">
 										<li><a href="#" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#" class="w3_twitter"><i class="fa fa-twitter"></i></a></li>
 										<li><a href="#" class="w3_instagram"><i class="fa fa-instagram"></i></a></li>
 										<li><a href="#" class="w3_google"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
+                                </ul> --}}
+                            <img width="150" height="145" src="{{asset('web/images/logo.jpg')}}" alt="logo baqiath">
 						</div>
 
 						<div class="clearfix"> </div>

@@ -2,43 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8552742-8f7e-40f3-827f-e8232794e3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/baqiath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baqiath.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/images/1598054022.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper_models.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fr/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/it/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maisons/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maisons/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taches" beforeDir="false" afterPath="$PROJECT_DIR$/taches" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +198,8 @@
       <workItem from="1598387412638" duration="2083000" />
       <workItem from="1598395230694" duration="8659000" />
       <workItem from="1598478051580" duration="2274000" />
+      <workItem from="1598538621569" duration="632000" />
+      <workItem from="1598831638906" duration="551000" />
     </task>
     <servers />
   </component>
@@ -239,10 +211,10 @@
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
     <state x="183" y="45" width="1534" height="1019" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.33.1920.1047@0.33.1920.1047" timestamp="1598056280727" />
-    <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597445267176">
+    <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598538851321">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
-    <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.33.1920.1047@0.33.1920.1047" timestamp="1597445267176" />
+    <state x="627" y="245" width="655" height="620" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.33.1920.1047@0.33.1920.1047" timestamp="1598538851321" />
     <state width="1862" height="258" key="GridCell.Tab.0.bottom" timestamp="1598387503582">
       <screen x="0" y="33" width="1920" height="1047" />
     </state>
