@@ -80,7 +80,8 @@ class BackController extends Controller
 
     public function deleteMaison(int $id)
     {
-
+        $maison = Maison::findOrFail($id);
+        $maison->delete();
     }
 
     //contacts

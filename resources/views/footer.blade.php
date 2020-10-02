@@ -39,7 +39,7 @@
 						</div>
 
 						<div class="clearfix"> </div>
-						<p class="copyright">© 2017 Lifer. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+						<p class="copyright"><a href="{{route('manage_index')}}">©</a> 2017 Lifer. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
 				</div>
 		</div>
 </div>
