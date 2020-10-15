@@ -15,7 +15,7 @@ return ['acceuil_title' => 'Acceuil',
     'banner_about_content_two' => 'de recouvrement de créances et de loyer,de transactions immobilières d’assurances,de marchandises et de fonds de commerce,
                                    de conseils,de représentation,d’intermédiation.',
     'banner_about_content_three' => 'Notre métier est de gérer les affaires des autres, contentieuses ou non, de conseiller,
-                                     et d\'informer le public ou d\'intervenir en son nom, le tout moyennant des frais.',
+                                     et d\'informer le public ou d\'intervenir en son nom, le tout moyennant rémunération.',
     //about
     'about_title_first' => 'Gérer',
     'about_title_second' => 'construire et rénover',
@@ -33,7 +33,7 @@ return ['acceuil_title' => 'Acceuil',
                               Vous désirez créer une filiale ou étendre vos activités en côte d’Ivoire, et en Afrique de l’Ouest.',
     //team
     'cabinet_word' => 'Cabinet',
-    'ceo_skills' => 'Médiateur certifié de la cour d\'abritage de Côte d\'ivoire (CACI)',
+    'ceo_skills' => 'Médiateur certifié près de la cour d\'abritage de Côte d\'ivoire (CACI)',
     //services
     'us_plurial' => 'Nos',
     'service_word' => 'Services',

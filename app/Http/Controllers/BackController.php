@@ -66,7 +66,7 @@ class BackController extends Controller
         $maison->chambre = $request->chambre;
         $maison->salon = $request->salon;
         $maison->superficie = $request->superficie;
-        $maison->rang = $request->rang ;
+        $maison->rang = $request->rang;
 
         $oldpath = public_path('web/images') . '/' . $maison->getOriginal('image_presentation');
         File::delete($oldpath);
