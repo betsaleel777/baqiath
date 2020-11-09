@@ -33,7 +33,8 @@ return ['acceuil_title' => 'Acceuil',
                               Vous désirez créer une filiale ou étendre vos activités en côte d’Ivoire, et en Afrique de l’Ouest.',
     //team
     'cabinet_word' => 'Cabinet',
-    'ceo_skills' => 'Médiateur certifié près de la cour d\'abritage de Côte d\'ivoire (CACI)',
+    'ceo_grade' => 'MAITRE',
+    'ceo_skills' => 'Médiateur certifié près la cour d\'abritage de Côte d\'ivoire (CACI)',
     //services
     'us_plurial' => 'Nos',
     'service_word' => 'Services',

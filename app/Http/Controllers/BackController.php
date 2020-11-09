@@ -41,9 +41,9 @@ class BackController extends Controller
     public function store(Request $request)
     {
         if ($request->rang == 0 or $request->rang == 1) {
-            $data = $request->validate(Maison::RULES_FIRST);
+            $data = $request->validate(Maison::RULES_ADD_FIRST);
         } else {
-            $data = $request->validate(Maison::RULES_SECOND);
+            $data = $request->validate(Maison::RULES_ADD_SECOND);
         }
         $maison = new Maison($request->all());
         $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
@@ -56,9 +56,9 @@ class BackController extends Controller
     public function updateMaison(Request $request)
     {
         if ($request->rang == 0 or $request->rang == 1) {
-            $data = $request->validate(Maison::RULES_FIRST);
+            $data = $request->validate(Maison::RULES_EDIT_FIRST);
         } else {
-            $data = $request->validate(Maison::RULES_SECOND);
+            $data = $request->validate(Maison::RULES_EDIT_SECOND);
         }
         $maison = Maison::where('rang', $request->rang)->get()->first();
         $maison->intitule = $request->intitule;
@@ -68,11 +68,13 @@ class BackController extends Controller
         $maison->superficie = $request->superficie;
         $maison->rang = $request->rang;
 
-        $oldpath = public_path('web/images') . '/' . $maison->getOriginal('image_presentation');
-        File::delete($oldpath);
-        $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
-        $request->image_presentation->move(public_path('web/images'), $imageName);
-        $maison->image_presentation = $imageName;
+        if ($request->hasFile('image_presentation')) {
+            $oldpath = public_path('web/images') . '/' . $maison->getOriginal('image_presentation');
+            File::delete($oldpath);
+            $imageName = time() . '.' . $request->image_presentation->getClientOriginalExtension();
+            $request->image_presentation->move(public_path('web/images'), $imageName);
+            $maison->image_presentation = $imageName;
+        }
 
         $maison->save();
         return redirect()->route('maisons')->with('success', 'Informations de maison modifiées avec succes');

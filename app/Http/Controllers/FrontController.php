@@ -6,6 +6,7 @@ use App\Contact;
 use App\Maison;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
 class FrontController extends Controller
 {
@@ -39,7 +40,7 @@ class FrontController extends Controller
         if (!in_array($locale, ['en', 'it', 'fr'])) {
             abort(404);
         }
-        \Session::put('locale', $locale);
+        Session::put('locale', $locale);
         return redirect()->back();
     }
 }

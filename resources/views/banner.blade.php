@@ -145,6 +145,49 @@
                     </div>
                 </div>
             </div>
+            <div style="margin-top: 25%" class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item rounded" width="882" height="496"
+                                    src="https://www.youtube.com/embed/TlZXvnwn5XM" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="padding-left:13%; padding-bottom: 32%; padding-top:26%" class="card border-success">
+                        <h2>La <span style="color:#07d91a">gestion</span></h2>
+                        <h2>De vos <span style="color:#07d91a">biens durables</span></h2>
+                        <h2>C'est <span style="color:#07d91a">Notre Priorité</span></h2>
+                    </div>
+                </div>
+            </div>
+            <hr style="display: block; height: 1px; border-top: 3px solid #07d91a">
+            <div class="row">
+                <div class="col-md-6">
+                    <div style="padding-left:13%; padding-bottom: 32%; padding-top:26%;" class="card border-success">
+                        <h2 style="color:#07d91a">Baqiath</h2>
+                        <h2>A votre service,</h2>
+                        <h2>Faites <span style="color:#07d91a">nous confiance</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item rounded" width="882" height="496"
+                                    src="https://www.youtube.com/embed/W7vMt0gU7l4" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="clearfix"> </div>
         </div>
     </div>

@@ -35,6 +35,7 @@ return ['acceuil_title' => 'Home',
                               You want to create a subsidiary or expand your activities in the Côte d\'ivoire and West Africa.',
     //team
     'cabinet_word' => 'Cabinet',
+    'ceo_grade' => 'LAWYER',
     'ceo_skills' => 'Certified mediator near the Côte d \'Ivoire shelter court (CACI)',
     //services
     'us_plurial' => 'Our',

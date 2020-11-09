@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-4 w3_agile_team_grid_info">
                 <img src="{{ asset('web/images/t2.jpg') }}" alt="Maitretoure" class="img-responsive" />
-                <h3>MAITRE TOURE Hamidou</h3>
+                <h3>{{__('messages.ceo_grade')}} TOURE Hamidou</h3>
                 <p>{{ __('messages.ceo_skills') }}</p>
                 {{-- <div class="agileits_w3layouts_nav_right team_agile _icons">
                     <ul>

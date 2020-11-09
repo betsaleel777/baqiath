@@ -34,6 +34,7 @@ return ['acceuil_title' => 'Casa',
                               Vuoi creare una filiale o espandere le tue attività in Costa d\'Avorio e Africa occidentale.',
     //team
     'cabinet_word' => 'Consiglio dei ministri',
+    'ceo_grade' => 'AVOCATO',
     'ceo_skills' => 'Mediatore certificato presso il campo di accoglienza Côte d\'Ivoire (CACI)',
     //services
     'us_plurial' => 'Nostro',
